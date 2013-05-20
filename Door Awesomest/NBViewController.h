@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASIHTTPRequest.h"
+#import "ASIFormDataRequest.h"
 
 @interface NBViewController : UIViewController
+
+@property (nonatomic, retain) UITextField* username_field;
+@property (nonatomic, retain) UITextField* password_field;
 
 @end
