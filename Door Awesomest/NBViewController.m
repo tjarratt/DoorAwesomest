@@ -50,6 +50,7 @@
 }
 
 - (void) start_authentication {
+    [[self password_field] resignFirstResponder];   
     BOOL authenticated = [self authenticate];
     
     if (authenticated) {
